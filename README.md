@@ -13,21 +13,6 @@ A console-based tool for offshore wind farm location analysis that includes:
 - Location evaluation with what-if scenario analysis. Assessing how selected locations perform compared to the average performance for each of the selected criteria.
 - Location evaluation with sensitivity analysis. Assessing how stable the selected location is to changes in stakeholder preferences.
 
-
-## Requirements
-Ensure you have the following dependencies installed (also available in `requirements.txt` file):
-```bash
-pip install matplotlib==3.8.0 numpy==1.26.4 pandas==2.1.4 pyDecision==4.5.8
-```
-
-## Installation and Run
-1. Download the repository to your local machine.
-2. Navigate to the repository on your local machine and open a terminal.
-3. Run offshore_wind_farm_analysis.py script.
-   ```bash
-   python offshore_wind_farm_analysis.py
-   ```
-
 ## Structure
 - `src` folder contains the code. Main is located in `offshore_wind_farm_analysis.py` file.
 - `data` folder contains exemplary data:
@@ -35,6 +20,22 @@ pip install matplotlib==3.8.0 numpy==1.26.4 pandas==2.1.4 pyDecision==4.5.8
    - `Criteria_Selection.csv` - Example of criteria selection.
    - `Constraints.csv` - Example of constraints.
 - `reports` folder contains results example from the available synthetic dataset.
+
+## Getting Started
+
+### Requirements
+Ensure you have the following dependencies installed (also available in `requirements.txt` file):
+```bash
+pip install matplotlib==3.8.0 numpy==1.26.4 pandas==2.1.4 pyDecision==4.5.8
+```
+
+### Installation
+1. Download the repository to your local machine.
+2. Navigate to the repository on your local machine and open a terminal.
+3. Run offshore_wind_farm_analysis.py script.
+   ```bash
+   python offshore_wind_farm_analysis.py
+   ```
 
 ## Usage
 Here is an example of application usage:
