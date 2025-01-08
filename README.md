@@ -4,11 +4,11 @@
 A console-based tool for offshore wind farm location analysis that includes:
 1. Location comparison based on different criteria.
 2. Location ranking and optimal location selection based on desired criteria and their impact.
-   2.1. Stakeholder preferences can be read from a file or simulated.
-   2.2. Utilizing AHP (Analytic Hierarchy Process) for determining criteria weights and TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) for location ranking.
-   2.3. Uncertainty in decision making can be considered by employing a fuzzy logic approach.
-4. Location evaluation with what-if scenario analysis. Assessing how selected locations perform compared to the average performance for each of the selected criteria.
-3. Location evaluation with sensitivity analysis. Assessing how stable the selected location is to changes in stakeholder preferences.
+> 2.1. Stakeholder preferences can be read from a file or simulated.
+> 2.2. Utilizing AHP (Analytic Hierarchy Process) for determining criteria weights and TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) for location ranking.
+> 2.3. Uncertainty in decision making can be considered by employing a fuzzy logic approach.
+3. Location evaluation with what-if scenario analysis. Assessing how selected locations perform compared to the average performance for each of the selected criteria.
+4. Location evaluation with sensitivity analysis. Assessing how stable the selected location is to changes in stakeholder preferences.
 
 ## **Requirements**
 Ensure you have the following dependencies installed (also available in `requirements.txt` file):
