@@ -27,12 +27,12 @@ pip install matplotlib==3.8.0 numpy==1.26.4 pandas==2.1.4 pyDecision==4.5.8
    ```
 
 ## **Structure**
-`src` folder contains the code. Main is located in `offshore_wind_farm_analysis.py` file.
-`data` folder contains exemplary data:
--  `Synthetic_Socio-Ecological_Data.csv` - Eample of performance data.
--  `Criteria_Selection.csv` - Example of criteria selection.
--   `Constraints.csv` - Example of constraints.
-`reports` folder contains results example from the available synthetic dataset.
+- `src` folder contains the code. Main is located in `offshore_wind_farm_analysis.py` file.
+- `data` folder contains exemplary data:
+   - `Synthetic_Socio-Ecological_Data.csv` - Eample of performance data.
+   - `Criteria_Selection.csv` - Example of criteria selection.
+   - `Constraints.csv` - Example of constraints.
+- `reports` folder contains results example from the available synthetic dataset.
 
 
 ## **Usage**
