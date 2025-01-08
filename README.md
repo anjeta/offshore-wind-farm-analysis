@@ -1,7 +1,7 @@
+<h1 align="center">What-If Scenario Analysis and Decision Support Algorithm for Offshore Wind Farm Installation</h1>
 <p align="center">
    <img src="visuals/task_overview.png" alt="Project Illustration" width="800" height="auto">
 </p>
-<h2 align="center">What-If Scenario Analysis and Decision Support Algorithm for Offshore Wind Farm Installation</h3>
 
 ## Project Overview
 A console-based tool for offshore wind farm location analysis that includes:
@@ -37,10 +37,6 @@ pip install matplotlib==3.8.0 numpy==1.26.4 pandas==2.1.4 pyDecision==4.5.8
 - `reports` folder contains results example from the available synthetic dataset.
 
 ## Usage
-<p align="left">
-   <img src="visuals/site_search.png" alt="Application Usage Example" width="600" height="auto">
-</p>
-
 Here is an example of application usage:
 1. Run `offshore_wind_farm_analysis.py` and type `0` to view the information about the app.
 2. Press Enter to acknowledge and type `1` to load the performance data.
