@@ -1,6 +1,8 @@
 # **What-If Scenario Analysis and Decision Support Algorithm for Offshore Wind Farm Installation**
 
-<img src="visuals/task_overview.png" alt="Project Illustration" width="800" height="auto">
+<p align="center">
+   <img src="visuals/task_overview.png" alt="Project Illustration" width="800" height="auto">
+</p>
 
 ## **Project Overview**
 A console-based tool for offshore wind farm location analysis that includes:
@@ -12,7 +14,9 @@ A console-based tool for offshore wind farm location analysis that includes:
 3. Location evaluation with what-if scenario analysis. Assessing how selected locations perform compared to the average performance for each of the selected criteria.
 4. Location evaluation with sensitivity analysis. Assessing how stable the selected location is to changes in stakeholder preferences.
 
-<img src="visuals/site_search.png" alt="Application Usage Example" width="400" height="auto">
+<p align="center">
+   <img src="visuals/site_search.png" alt="Application Usage Example" width="600" height="auto">
+</p>
 
 ## **Requirements**
 Ensure you have the following dependencies installed (also available in `requirements.txt` file):
