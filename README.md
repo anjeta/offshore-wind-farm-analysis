@@ -1,10 +1,11 @@
-# **What-If Scenario Analysis and Decision Support Algorithm for Offshore Wind Farm Installation**
+## **What-If Scenario Analysis and Decision Support Algorithm for Offshore Wind Farm Installation**
+
+## **Project Overview**
 
 <p align="center">
    <img src="visuals/task_overview.png" alt="Project Illustration" width="800" height="auto">
 </p>
 
-## **Project Overview**
 A console-based tool for offshore wind farm location analysis that includes:
 1. Location comparison based on different criteria.
 2. Location ranking and optimal location selection based on desired criteria and their impact.
@@ -13,11 +14,6 @@ A console-based tool for offshore wind farm location analysis that includes:
    - Uncertainty in decision making can be considered by employing a fuzzy logic approach.
 3. Location evaluation with what-if scenario analysis. Assessing how selected locations perform compared to the average performance for each of the selected criteria.
 4. Location evaluation with sensitivity analysis. Assessing how stable the selected location is to changes in stakeholder preferences.
-
-
-<p align="center">
-   <img src="visuals/site_search.png" alt="Application Usage Example" width="600" height="auto">
-</p>
 
 
 ## **Requirements**
@@ -46,6 +42,11 @@ pip install matplotlib==3.8.0 numpy==1.26.4 pandas==2.1.4 pyDecision==4.5.8
 
 
 ## **Usage**
+
+<p align="center">
+   <img src="visuals/site_search.png" alt="Application Usage Example" width="600" height="auto">
+</p>
+
 Here is an example of application usage:
 1. Run `offshore_wind_farm_analysis.py` and type `0` to view the information about the app.
 2. Press Enter to acknowledge and type `1` to load the performance data.
