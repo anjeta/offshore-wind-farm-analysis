@@ -1,11 +1,9 @@
-## **What-If Scenario Analysis and Decision Support Algorithm for Offshore Wind Farm Installation**
-
-## **Project Overview**
-
 <p align="center">
    <img src="visuals/task_overview.png" alt="Project Illustration" width="800" height="auto">
 </p>
+<h3 align="center">What-If Scenario Analysis and Decision Support Algorithm for Offshore Wind Farm Installation</h3>
 
+## Project Overview
 A console-based tool for offshore wind farm location analysis that includes:
 1. Location comparison based on different criteria.
 2. Location ranking and optimal location selection based on desired criteria and their impact.
@@ -16,23 +14,21 @@ A console-based tool for offshore wind farm location analysis that includes:
 4. Location evaluation with sensitivity analysis. Assessing how stable the selected location is to changes in stakeholder preferences.
 
 
-## **Requirements**
+## Requirements
 Ensure you have the following dependencies installed (also available in `requirements.txt` file):
 ```bash
 pip install matplotlib==3.8.0 numpy==1.26.4 pandas==2.1.4 pyDecision==4.5.8
 ```
 
-## **Installation and Run**
+## Installation and Run
 1. Download the repository to your local machine.
-
 2. Navigate to the repository on your local machine and open a terminal.
-
 3. Run offshore_wind_farm_analysis.py script.
    ```bash
    python offshore_wind_farm_analysis.py
    ```
 
-## **Structure**
+## Structure
 - `src` folder contains the code. Main is located in `offshore_wind_farm_analysis.py` file.
 - `data` folder contains exemplary data:
    - `Synthetic_Socio-Ecological_Data.csv` - Eample of performance data.
@@ -40,13 +36,10 @@ pip install matplotlib==3.8.0 numpy==1.26.4 pandas==2.1.4 pyDecision==4.5.8
    - `Constraints.csv` - Example of constraints.
 - `reports` folder contains results example from the available synthetic dataset.
 
-
-## **Usage**
-
+## Usage
 <p align="center">
    <img src="visuals/site_search.png" alt="Application Usage Example" width="600" height="auto">
 </p>
-
 Here is an example of application usage:
 1. Run `offshore_wind_farm_analysis.py` and type `0` to view the information about the app.
 2. Press Enter to acknowledge and type `1` to load the performance data.
