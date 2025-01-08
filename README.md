@@ -1,5 +1,7 @@
 # **What-If Scenario Analysis and Decision Support Algorithm for Offshore Wind Farm Installation**
 
+![Project Illustration](visuals/task_overview.png)
+
 ## **Project Overview**
 A console-based tool for offshore wind farm location analysis that includes:
 1. Location comparison based on different criteria.
@@ -9,6 +11,8 @@ A console-based tool for offshore wind farm location analysis that includes:
    - Uncertainty in decision making can be considered by employing a fuzzy logic approach.
 3. Location evaluation with what-if scenario analysis. Assessing how selected locations perform compared to the average performance for each of the selected criteria.
 4. Location evaluation with sensitivity analysis. Assessing how stable the selected location is to changes in stakeholder preferences.
+
+![Application Usage_Example](visuals/site_search.png)
 
 ## **Requirements**
 Ensure you have the following dependencies installed (also available in `requirements.txt` file):
