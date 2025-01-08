@@ -1,0 +1,13 @@
+criteria,type
+average_income,max
+fishing_dependency,min
+unemployment_rate,min
+tourism_revenue,max
+fish_stock_health,max
+potential_habitat_restoration,max
+marine_biodiversity,max
+carbon_sequestration_potential,max
+current_offshore_wind_farms,min
+distance_from_offshore_wind_farm,min
+potential_wind_farm_capacity,max
+marine_protected_area,min
