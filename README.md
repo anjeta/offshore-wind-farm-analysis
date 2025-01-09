@@ -14,12 +14,14 @@ A console-based tool for offshore wind farm location analysis that includes:
 - Location evaluation with sensitivity analysis. Assessing how stable the selected location is to changes in stakeholder preferences.
 
 ## Structure
-- `src` folder contains the code. Main is located in `offshore_wind_farm_analysis.py` file.
 - `data` folder contains exemplary data:
    - `Synthetic_Socio-Ecological_Data.csv` - Eample of performance data.
    - `Criteria_Selection.csv` - Example of criteria selection.
    - `Constraints.csv` - Example of constraints.
+- `notebooks` folder contains Jupyter notebooks for results analysis.
 - `reports` folder contains results example from the available synthetic dataset.
+- `src` folder contains the code. Main is located in `offshore_wind_farm_analysis.py` file.
+- `visuals` folder contains visual materials for the project.
 
 ## Getting Started
 
